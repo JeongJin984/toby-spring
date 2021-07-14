@@ -1,5 +1,6 @@
-package com.example.test;
+package springbook.context;
 
+@Aspect
 public class Hello {
     private String name;
 
@@ -7,4 +8,7 @@ public class Hello {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
 }
