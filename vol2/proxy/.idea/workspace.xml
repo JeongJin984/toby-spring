@@ -5,26 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a77d787a-9038-40da-95f0-66178067152b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../unit1/src/main/java/springbook/context/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../unit1/src/main/java/springbook/context/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../unit1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit1/src/main/java/com/example/test/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit1/src/main/java/springbook/context/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit1/src/test/java/com/example/test/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit1/src/test/java/springbook/context/HelloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit1/target/classes/com/example/test/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit1/target/classes/com/example/test/ContextAccessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit1/target/classes/com/example/test/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unit1/target/test-classes/com/example/test/HelloTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/SimpleAopBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springbook/SimpleAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/aopBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/springbook/SimpleAopBeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/aopBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springbook/SimpleAopBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springbook/SimpleAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/springbook/SimpleAopBeanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1vISX8A4aO6PhHl6KflGRvqrtUS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,8 +57,77 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="springbook" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SimpleAopBeanTest.aspectJTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleAopBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="springbook" />
+      <option name="MAIN_CLASS_NAME" value="springbook.SimpleAopBeanTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleAopBeanTest.aspectJTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="springbook" />
+      <option name="MAIN_CLASS_NAME" value="springbook.SimpleAopBeanTest" />
+      <option name="METHOD_NAME" value="aspectJTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimpleAopBeanTest.aspectJTest" />
+        <item itemvalue="JUnit.SimpleAopBeanTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,8 +137,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626248148678</updated>
-      <workItem from="1626248150214" duration="2000" />
+      <workItem from="1626248150214" duration="7726000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

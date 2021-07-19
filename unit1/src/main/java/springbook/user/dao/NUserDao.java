@@ -13,6 +13,7 @@ public class NUserDao implements UserDao {
     }
 
     @Override
+    @Transaction
     public void add(User user) throws SQLException {
         // Connection c = DriverManager.getConnection("jdbc:mariadb://localhost/testdb", "root", "pass");
         Connection c = cm.makeNewConnection();

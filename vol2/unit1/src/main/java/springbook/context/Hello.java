@@ -1,6 +1,8 @@
 package springbook.context;
 
-@Aspect
+import org.springframework.stereotype.Component;
+
+@Component
 public class Hello {
     private String name;
 
